@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var welcomLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        welcomLabel.text = "Hello Favour"
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
